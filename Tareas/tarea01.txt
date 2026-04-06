@@ -1,0 +1,1308 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260406153245
+Nombre de usuario: LAPTOP-LRBGN4L1\anaba
+Usuario RunAs: LAPTOP-LRBGN4L1\anaba
+Nombre de la configuración: 
+Máquina: LAPTOP-LRBGN4L1 (Microsoft Windows NT 10.0.26200.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 12236
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es tarea01.txt
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas> pwd
+
+Path
+----
+C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas> cd /
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> cd Users
+PS C:\Users> cd ..
+PS C:\> cd Users
+PS C:\Users> pwd
+
+Path
+----
+C:\Users
+
+
+PS C:\Users> cd ..
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> cd
+PS C:\> cd ~
+PS C:\Users\anaba> cd ../..
+PS C:\> cd ~
+PS C:\Users\anaba>  cd../..
+cd../.. : El término 'cd../..' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es 
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 2
++  cd../..
++  ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cd../..:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cd../.. : El término 'cd../..' no se reconoce como nombre de un cmdlet, función, archivo de script o programa
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta
+es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 2
++  cd../..
++  ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cd../..:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\anaba> cd ../..
+PS C:\> mkdir etc
+
+
+    Directorio: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     15:48                etc
+
+
+PS C:\> cd ~
+PS C:\Users\anaba> cd repo-curso-2026
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\repo-curso-2026' porque no existe.
+En línea: 1 Carácter: 1
++ cd repo-curso-2026
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\repo-curso-2026:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\repo-curso-2026' porque no existe.
+En línea: 1 Carácter: 1
++ cd repo-curso-2026
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\repo-curso-2026:String) [Set-Location], ItemNotFoundExc
+   eption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\anaba> cd cdatoseco
+PS C:\Users\anaba\cdatoseco> cd repo-curso-2026
+PS C:\Users\anaba\cdatoseco\repo-curso-2026> cd Tareas
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas> cd ../../../../../etc
+PS C:\etc> pwd
+
+Path
+----
+C:\etc
+
+
+PS C:\etc> cd ~
+PS C:\Users\anaba> pwd
+
+Path
+----
+C:\Users\anaba
+
+
+PS C:\Users\anaba> cd etc
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\etc' porque no existe.
+En línea: 1 Carácter: 1
++ cd etc
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\etc:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\etc' porque no existe.
+En línea: 1 Carácter: 1
++ cd etc
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\etc:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\anaba> cd /etc
+PS C:\etc> pwd
+
+Path
+----
+C:\etc
+
+
+PS C:\etc> whoami
+
+PS C:\etc> cd ..
+PS C:\> cd /Users/Desktop
+cd : No se encuentra la ruta de acceso 'C:\Users\Desktop' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Users/Desktop
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\Desktop' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Users/Desktop
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> cd /Users/anaba/Desktop
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\Desktop' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Users/anaba/Desktop
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\Desktop' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Users/anaba/Desktop
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> cd /Users/anaba/Escritorio
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\Escritorio' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Users/anaba/Escritorio
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\Escritorio:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\Escritorio' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Users/anaba/Escritorio
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\Escritorio:String) [Set-Location], ItemNotFoundExceptio
+   n
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> cd /Users/anaba/OneDrive/Escritorio
+PS C:\Users\anaba\OneDrive\Escritorio> pwd
+
+Path
+----
+C:\Users\anaba\OneDrive\Escritorio
+
+
+PS C:\Users\anaba\OneDrive\Escritorio> cd ~
+PS C:\Users\anaba> cd ~/Escritorio
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\Escritorio' porque no existe.
+En línea: 1 Carácter: 1
++ cd ~/Escritorio
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\Escritorio:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\anaba\Escritorio' porque no existe.
+En línea: 1 Carácter: 1
++ cd ~/Escritorio
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\Escritorio:String) [Set-Location], ItemNotFoundExceptio
+   n
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\anaba> cd ~/OneDrive/Escritorio
+PS C:\Users\anaba\OneDrive\Escritorio> pwd
+
+Path
+----
+C:\Users\anaba\OneDrive\Escritorio
+
+
+PS C:\Users\anaba\OneDrive\Escritorio> cd ~
+PS C:\Users\anaba> cd /
+PS C:\> cd /etc
+PS C:\etc> cd ..
+PS C:\> cd ~
+PS C:\Users\anaba> cd cdatoseco
+PS C:\Users\anaba\cdatoseco> cd repo-curso-2026
+PS C:\Users\anaba\cdatoseco\repo-curso-2026> cd Tareas
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas> mkdir tutorial1
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:13                tutorial1
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas> pwd
+
+Path
+----
+C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas> cd tutorial1
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> pwd
+
+Path
+----
+C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mkdir dir1 dir2 dir3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mkdir
+>> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mkdir dir1,dir2,dir3
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mkdir -p dir4,dir5,dir6
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:19                dir4
+d-----          6/4/2026     16:19                dir5
+d-----          6/4/2026     16:19                dir6
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rm dir4,dir5,dir6
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> dir
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mkdir -p dir4/dir5/dir6
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:22                dir6
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> dir
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+d-----          6/4/2026     16:22                dir4
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cd dir4
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:22                dir5
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4> cd dir5
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:22                dir6
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir another folder
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir "another folder"
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another folder
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir "folder 1"
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:28                folder 1
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir 'folder 2'
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:28                folder 2
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir folder\ 3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '3'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder\ 3
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder\ 3
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir -p "folder 6"/"folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mkdir -p "folder 6/folder 7"
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5\folder 6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:30                folder 7
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another folder
+d-----          6/4/2026     16:22                dir6
+d-----          6/4/2026     16:28                folder 1
+d-----          6/4/2026     16:28                folder 2
+d-----          6/4/2026     16:30                folder 6
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls > output.txt
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="another folder"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir6"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 6"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="output.txt"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another folder
+d-----          6/4/2026     16:22                dir6
+d-----          6/4/2026     16:28                folder 1
+d-----          6/4/2026     16:28                folder 2
+d-----          6/4/2026     16:30                folder 6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> cat output.txt
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another folder
+d-----          6/4/2026     16:22                dir6
+d-----          6/4/2026     16:28                folder 1
+d-----          6/4/2026     16:28                folder 2
+d-----          6/4/2026     16:30                folder 6
+-a----          6/4/2026     16:32              0 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> cat
+>> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> cd ../../
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "this is a test" > test_1.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "this is a second test" > test_2.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "this is a third test" > test_3.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:38             34 test_1.txt
+-a----          6/4/2026     16:38             48 test_2.txt
+-a----          6/4/2026     16:39             46 test_3.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat test_1.txt, test_2.txt, test_3.txt
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat test_?.txt
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat test_*
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat t* > combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "I've appended a line!" >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="I've appended a line!"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+I've appended a line!
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat t* > combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat t* >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat t* >>> combined.txt
+En línea: 1 Carácter: 10
++ cat t* >>> combined.txt
++          ~
+Falta la especificación de archivo después del operador de redirección.
+
+En línea: 1 Carácter: 10
++ cat t* >>> combined.txt
++          ~~~~~~~~~~~~~~
+El flujo de salida de este comando ya está redirigido.
+En línea: 1 Carácter: 10
++ cat t* >>> combined.txt
++          ~
+Falta la especificación de archivo después del operador de redirección.
+
+En línea: 1 Carácter: 10
++ cat t* >>> combined.txt
++          ~~~~~~~~~~~~~~
+El flujo de salida de este comando ya está redirigido.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingFileSpecification
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat t* >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "I've appended a line!" >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="I've appended a line!"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+I've appended a line!
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> less combined.txt
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ less combined.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta
+e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ less combined.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> more combined.txt
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "Lower case" > a.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Lower case"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "Upper case" > A.TXT
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Upper case"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> echo "Mixed case" > A.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Mixed case"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 combined.txt
+-a----          6/4/2026     16:38             34 test_1.txt
+-a----          6/4/2026     16:38             48 test_2.txt
+-a----          6/4/2026     16:39             46 test_3.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv combined.txt dir1
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:59                dir1
+d-----          6/4/2026     16:17                dir2
+d-----          6/4/2026     16:17                dir3
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:38             34 test_1.txt
+-a----          6/4/2026     16:38             48 test_2.txt
+-a----          6/4/2026     16:39             46 test_3.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir1
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv dir1/* .
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir1
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv combined.txt, test_*, dir3 dir2
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:03                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir2
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir3
+-a----          6/4/2026     16:45            414 combined.txt
+-a----          6/4/2026     16:38             34 test_1.txt
+-a----          6/4/2026     16:38             48 test_2.txt
+-a----          6/4/2026     16:39             46 test_3.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv dir2/combined.txt dir4/dir5/dir6
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir2
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:17                dir3
+-a----          6/4/2026     16:38             34 test_1.txt
+-a----          6/4/2026     16:38             48 test_2.txt
+-a----          6/4/2026     16:39             46 test_3.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir6
+ls : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir6' porque no 
+existe.
+En línea: 1 Carácter: 1
++ ls dir6
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...\tutorial1\dir6:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir6' porque no
+existe.
+En línea: 1 Carácter: 1
++ ls dir6
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...\tutorial1\dir6:String) [Get-ChildItem], ItemNotFoun
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4/dir5/dir6
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5\dir6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cp dir4/dir5/dir6/combined.txt .
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4/dir5/dir6
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5\dir6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cp combined.txt backup_combined.txt
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 backup_combined.txt
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv backup_combined.txt combined_backup.txt
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 combined.txt
+-a----          6/4/2026     16:45            414 combined_backup.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv "folder 1" folder_1
+mv : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\folder 1' porque no 
+existe.
+En línea: 1 Carácter: 1
++ mv "folder 1" folder_1
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...orial1\folder 1:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\folder 1' porque no
+existe.
+En línea: 1 Carácter: 1
++ mv "folder 1" folder_1
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...orial1\folder 1:String) [Move-Item], ItemNotFoundExc
+   eption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4/dir5
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder 1
+d-----          6/4/2026     16:28                folder 2
+d-----          6/4/2026     16:30                folder 6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> mv "folder 1" folder_1
+mv : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\folder 1' porque no 
+existe.
+En línea: 1 Carácter: 1
++ mv "folder 1" folder_1
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...orial1\folder 1:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\folder 1' porque no
+existe.
+En línea: 1 Carácter: 1
++ mv "folder 1" folder_1
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...orial1\folder 1:String) [Move-Item], ItemNotFoundExc
+   eption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cd dir4/dir5
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder 1
+d-----          6/4/2026     16:28                folder 2
+d-----          6/4/2026     16:30                folder 6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mv "folder 1" folder_1
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mv "folder 2" folder_2
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mv "folder 6" folder_6
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> mv "another folder" another_folder
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another_folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder_1
+d-----          6/4/2026     16:28                folder_2
+d-----          6/4/2026     16:30                folder_6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> rm dir4/dir5/dir6/combined.txt combined_backup.txt
+>> ErrorTerminación(Remove-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'."
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> cd ..
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4> cd ..
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rm dir4/dir5/dir6/combined.txt combined_backup.txt
+>> ErrorTerminación(Remove-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'."
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 combined.txt
+-a----          6/4/2026     16:45            414 combined_backup.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rm dir4/dir5/dir6/combined.txt, combined_backup.txt
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:13                dir5
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rm folder_*
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir5
+ls : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir5' porque no 
+existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...\tutorial1\dir5:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir5' porque no
+existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\anaba\...\tutorial1\dir5:String) [Get-ChildItem], ItemNotFoun
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4/dir5
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another_folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder_1
+d-----          6/4/2026     16:28                folder_2
+d-----          6/4/2026     16:30                folder_6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rm folder_*
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4/dir5
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another_folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder_1
+d-----          6/4/2026     16:28                folder_2
+d-----          6/4/2026     16:30                folder_6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rmdir folder_*
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:01                dir1
+d-----          6/4/2026     17:04                dir2
+d-----          6/4/2026     16:22                dir4
+-a----          6/4/2026     16:48             26 a.txt
+-a----          6/4/2026     16:45            414 combined.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls dir4/dir5
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another_folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder_1
+d-----          6/4/2026     16:28                folder_2
+d-----          6/4/2026     16:30                folder_6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cd dir4/dir5
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another_folder
+d-----          6/4/2026     17:04                dir6
+d-----          6/4/2026     16:28                folder_1
+d-----          6/4/2026     16:28                folder_2
+d-----          6/4/2026     16:30                folder_6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> rmdir folder_*
+Confirmar
+El elemento situado en C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5\folder_6 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+S
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     16:26                another_folder
+d-----          6/4/2026     17:04                dir6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls dir6
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> rm -r another_folder
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> ls 
+
+
+    Directorio: C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/4/2026     17:16                dir6
+-a----          6/4/2026     16:32           2116 output.txt
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4\dir5> cd ..
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1\dir4> cd ..
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> wc -l combined.txt
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ wc -l combined.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta
+e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ wc -l combined.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> (cat combined.txt).Count
+10
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+I've appended a line!
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls ~ > file_list.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".anaconda"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".conda"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".ipython"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".m2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".matplotlib"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".ms-ad"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".QtWebEngineProcess"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".redhat"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".spyder-py3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".ssh"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".vscode"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".vscode-insiders"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="3D Objects"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="anaconda3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="cdatoseco"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Contacts"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Documents"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Downloads"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Favorites"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Jedi"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Links"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Music"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="nombre.del.grupo"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="OneDrive"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="prueba"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Saved Games"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Searches"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="tp-02-labo-de-datos"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Videos"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="-1.14-windows.xml"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".bashrc"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".bash_history"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".bash_profile"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".condarc"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".gitconfig"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".gitignore"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".viminfo"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".wget-hsts"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="ejs clase1.py"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="guia33.hs"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="guia4.hs"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="haskell1.hs"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="haskell1.txt"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="id_rsa"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="id_rsa.pub"
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> (Get-Content file_list.txt).Count
+54
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> rm file_list.txt
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ls ~ | Measure-Object -Line
+
+Lines Words Characters Property
+----- ----- ---------- --------
+   45
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> Get-Content combined.txt | Select-Object -Unique | Measure-Object -Line
+
+Lines Words Characters Property
+----- ----- ---------- --------
+    4
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> man uniq
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> cat combined.txt
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+this is a test
+this is a second test
+this is a third test
+I've appended a line!
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> Get-Content combined.txt | Sort-Object | Select-Object -Unique | Measure-Object -Line
+
+Lines Words Characters Property
+----- ----- ---------- --------
+    4
+
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> man ls
+
+PS C:\Users\anaba\cdatoseco\repo-curso-2026\Tareas\tutorial1> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260406174344
+**********************
