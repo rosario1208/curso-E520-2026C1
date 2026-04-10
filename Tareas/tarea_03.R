@@ -349,7 +349,7 @@ ggplot(mpg, aes(x = class)) +
 ggplot(mpg, aes(x = cty, y = hwy)) +
   geom_point()
 ggsave("mpg-plot.png")
-#se guardo el segungo porque fue el último que se creó
+#se guardo el segundo porque fue el último que se creó
 #para guardar el primero
 g1<- ggplot(mpg, aes(x = class)) +
   geom_bar()
